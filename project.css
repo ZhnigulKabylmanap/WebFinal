@@ -1,0 +1,54 @@
+.header{
+	height: 65px;
+   display: flex;
+	align-items: center;
+   background: #bba377;
+}
+
+
+
+.header > .Above {
+	font-size: 22px;
+	font-weight: bold;
+}
+
+.header> .tabs {
+	list-style: none;
+   margin-left: auto;
+	display: flex;
+}
+
+.header > .tabs > .tab:not(:last-child) {
+	margin-right: 20px;
+}
+
+.header> .tabs > .tab {
+	width: 90px;
+	height: 36px;
+   display: flex;
+	justify-content: center;
+	align-items: center;
+   background-color: hsl(0, 0%, 0%);
+}
+
+.top-section h1{
+   color:rgb(206, 120, 50);
+   font-style:oblique;
+   font-weight: bold;
+}
+.mid1 h2{
+   background-color: #ffa500;
+   color:hsl(0,100%,0);
+   
+  
+}
+
+.mid2 img{
+    width: 80%;
+    height:300px ;
+}
+
+.h2{
+   background-color: rgb(64, 64, 116);
+   color: #000;
+}
